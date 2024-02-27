@@ -1,0 +1,19 @@
+[33me684db9[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m HEAD@{0}: reset: moving to e684db9
+[33me684db9[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m HEAD@{1}: reset: moving to e684db9
+[33me684db9[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m HEAD@{2}: reset: moving to e684db9
+[33mf7f2da7[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{3}: reset: moving to HEAD~5
+[33me684db9[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m HEAD@{4}: reset: moving to HEAD
+[33me684db9[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m HEAD@{5}: commit: weather app
+[33m8ce2f2d[m HEAD@{6}: commit: Añadir archivos MP4
+[33m070da9c[m HEAD@{7}: commit: Configurar Git LFS para archivos MP4
+[33m7ad9684[m HEAD@{8}: reset: moving to HEAD~1
+[33m822539b[m HEAD@{9}: reset: moving to HEAD~1
+[33mef6ee1e[m HEAD@{10}: reset: moving to HEAD~1
+[33mbf428b8[m HEAD@{11}: commit: git lfs config
+[33mef6ee1e[m HEAD@{12}: reset: moving to HEAD~1
+[33m5c4ae6d[m HEAD@{13}: commit: git lfs config
+[33mef6ee1e[m HEAD@{14}: commit: weather app
+[33m822539b[m HEAD@{15}: commit: weather app
+[33m7ad9684[m HEAD@{16}: commit: weather app
+[33m075cb6d[m HEAD@{17}: commit: weather app
+[33mf7f2da7[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{18}: clone: from https://github.com/lucasduran3/Weather-app.git

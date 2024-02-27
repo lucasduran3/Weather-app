@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather app</title>
+  </head>
+  <body>
+    <video autoplay muted loop id="myVideo">
+      <source type="video/mp4" class="video" />
+    </video>
+    <div class="transparent-bg"></div>
+    <div class="weather-data-container">
+      <div class="header">
+        <input type="text" id="location" class="location-input" />
+        <div class="list-container" id="list-container"></div>
+      </div>
+      <div class="date-time">
+        <span class="date"></span>
+        <span class="time"></span>
+      </div>
+      <div class="temp-section">
+        <img src="" alt="" class="temp-icon" />
+        <div class="temp"></div>
+      </div>
+      <div class="extra-data">
+        <div class="precipation-container">
+          <i class="fa-solid fa-umbrella"></i>
+          <span class="precip"></span>
+        </div>
+        <div class="humidity-container">
+          <i class="fa-solid fa-droplet"></i>
+          <span class="humidity"></span>
+        </div>
+        <div class="wind-container">
+          <i class="fa-solid fa-wind"></i>
+          <span class="wind"></span>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/fb9e5b8419.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
