@@ -178,7 +178,9 @@ const requests = () => {
   const weather = async (location) => {
     try {
       const response = await fetch(
-        `http://api.weatherapi.com/v1/current.json?key=5238ad1040f54b49b91141201241502 &q=${location}&aqi=yes`
+        `http://api.weatherapi.com/v1/current.json?key=5238ad1040f54b49b91141201241502 &q=${location}&aqi=yes`,{
+          mode: "cors"
+        }
       );
       const jsonResponse = await response.json();
       return jsonResponse;
@@ -189,7 +191,9 @@ const requests = () => {
 
   const searchLocation = async (input) => {
     const response = await fetch(
-      `https://api.weatherapi.com/v1/search.json?q=${input}&key=5238ad1040f54b49b91141201241502`
+      `https://api.weatherapi.com/v1/search.json?q=${input}&key=5238ad1040f54b49b91141201241502`,{
+        mode: 'cors'
+      }
     );
     const locationList = await response.json();
     return locationList;
