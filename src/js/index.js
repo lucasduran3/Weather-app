@@ -1,6 +1,6 @@
 import { format } from "date-fns";
-import "./meyerReset.css";
-import "./style.css";
+import "../css/meyerReset.css";
+import "../css/style.css";
 
 const UIController = () => {
   const searchField = document.getElementById("location");
