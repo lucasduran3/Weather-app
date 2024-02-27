@@ -130,7 +130,6 @@ const UIController = () => {
     const iconName = weatherConditions.find((item) =>
       item.codes.includes(iconCode)
     );
-    console.log(selectedWeather);
     let image;
     image = isDay === 0 ? `${iconName.icon}-night` : `${iconName.icon}-day`;
 
@@ -178,7 +177,7 @@ const requests = () => {
   const weather = async (location) => {
     try {
       const response = await fetch(
-        `http://api.weatherapi.com/v1/current.json?key=5238ad1040f54b49b91141201241502 &q=${location}&aqi=yes`,{
+        `https://api.weatherapi.com/v1/current.json?key=5238ad1040f54b49b91141201241502 &q=${location}&aqi=yes`,{
           mode: "cors"
         }
       );
