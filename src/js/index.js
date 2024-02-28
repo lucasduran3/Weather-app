@@ -10,7 +10,7 @@ const UIController = () => {
   const precip = document.querySelector(".precip");
   const humidity = document.querySelector(".humidity");
   const wind = document.querySelector(".wind");
-  const bgVideo = document.querySelector("#myVideo");
+  const bgImage = document.querySelector(".bg-img");
   const tempIcon = document.querySelector(".temp-icon");
 
   let selectedWeather;
@@ -157,8 +157,8 @@ const UIController = () => {
     date.textContent = format(new Date(dayDate), "eeeeeee");
     humidity.textContent = `${selectedWeather.current.humidity} %`;
     const imageName = imagePicker().image;
-    bgVideo.src = `./videos/${imageName}.mp4` || "./videos/clear-day.mp4";
-    tempIcon.src = `./images/${imageName}.svg`;
+    bgImage.src = `./images/${imageName}.jpg` || "./images/clear-day.jpg";
+    tempIcon.src = `./icons/${imageName}.svg`;
     temp.textContent = `${selectedWeather.current.temp_c} °C`;
     precip.textContent = `${selectedWeather.current.precip_in} in`;
     wind.textContent = `${selectedWeather.current.wind_kph} kph`;
